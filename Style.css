@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+
+:root {
+    background-color: rgb(215, 198, 255);
+    background-image: url(img/Background\ Image.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    position: sticky;
+}
+
+body {
+    font-family: Atma;
+    padding: 0;
+    margin: 0;
+}
+
+#Main_Container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 100px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+#Main_Header {
+    background-color: rgb(64, 64, 64);
+    color: white;
+    margin-bottom: 20px;
+}
+
+#Main_Content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#UNC {
+    background-image: url(img/ultrakill.png);
+    background-size: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+}
+
+#SO_OLD {
+    width: 90px;
+    border-radius: 20px;
+    border: 5px solid rgba(40, 40, 40, 0.5);
+    margin: 0 auto;
+    font-family: Antonio;
+    font-size: 100px;
+    background-color: rgb(118, 118, 118);
+}
+
+#SO_OLD p {
+    margin: 0;
+}
+
+#PEAK {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#IMAGE_PEAK {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5px;
+}
+
+.BROWHOISTHAT {
+    width: 200px;
+    height: 300px;
+}
+
+
+.CINEMA {
+    width: 200px;
+    height: 300px;
+}
+
+#FISH {
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+
+#fihh {
+    width: 500px;
+}
+
+#WRITETHATDOWN {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#WRITETHATDOWN p {
+    background-color: rgb(124, 124, 124);
+    border-radius: 10px;
+    max-width: 90%;
+    padding: 30px;
+}
