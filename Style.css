@@ -61,12 +61,12 @@ body {
 
 #PEAK {
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(200, 255, 195);
 }
 
 #IMAGE_PEAK {
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(177, 215, 255);
     padding-bottom: 5px;
 }
 
@@ -83,7 +83,7 @@ body {
 
 #FISH {
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 171, 171);
     color: rgb(0, 0, 0);
     padding: 50px 0;
 }
@@ -97,7 +97,7 @@ body {
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 251, 183);
 }
 
 #WRITETHATDOWN p {
@@ -105,8 +105,9 @@ body {
     border-radius: 10px;
     max-width: 90%;
     padding: 30px;
-
+    margin: 10px;
 }
+
 
 
 
